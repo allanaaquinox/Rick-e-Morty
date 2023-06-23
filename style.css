@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #f1fcfd;
 }
 
@@ -12,66 +12,65 @@ body{
 .container-person {
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-between;
+  justify-content: space-between;
   padding: 25px;
   gap: 20px;
 }
 
 
- .personagem-card {
-    width: 280px;
-    height: 100px;
-    border: 1px solid #cc2121;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    transition: 0.3s linear;
-    text-align: center;
-  }
+.personagem-card {
+  width: 280px;
+  height: 100px;
+  border: 1px solid #cc2121;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s linear;
+  text-align: center;
+}
 
-  .personagem-card:hover{
-    transform: scale(1.2);
-    border: 3px solid #1df700;
-    background-color: rgb(241, 241, 237);
-  }
+.personagem-card:hover {
+  transform: scale(1.2);
+  border: 3px solid #1df700;
+  background-color: rgb(241, 241, 237);
+}
 
+.imagem-personagem {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.personagem-detalhe {
+  flex-grow: 1;
+}
+
+.nome-personagem {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  vertical-align: middle;
+}
+
+.personagem-status {
+  margin-bottom: 5px;
+}
+
+.character-species {
+  margin-bottom: 5px;
+}
+
+.character-origin {
+  font-style: italic;
+}
+
+@media (max-width:500px) {
   .imagem-personagem {
-    width: 100px;
-    height: 100px;
-    margin-right: 10px;
-    border-radius: 5px;
+    width: 85px;
+    height: 85px;
   }
 
-  .personagem-detalhe {
-    flex-grow: 1;
-  }
-
-  .nome-personagem {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 5px;
-    vertical-align: middle;
-  }
-
-  .personagem-status {
-    margin-bottom: 5px;
-  }
-
-  .character-species {
-    margin-bottom: 5px;
-  }
-
-  .character-origin {
-    font-style: italic;
-  }
-
-  @media (max-width:500px) {
-    .imagem-personagem {
-      width: 85px;
-      height: 85px; 
-    }
-
-  }
-
+}

@@ -77,13 +77,10 @@ function navegarPara(character) {
   var origemPerson = encodeURIComponent(character.origin.name);
 
   window.location.href = 'character-page.html?id=' + personId +
-                          '&name=' + nomePerson +
-                          '&status=' + statusPerson +
-                          '&species=' + especiePerson +
-                          '&origin=' + origemPerson;
+    '&name=' + nomePerson +
+    '&status=' + statusPerson +
+    '&species=' + especiePerson +
+    '&origin=' + origemPerson;
 }
 
 gerPersonagem();
-
-
-
